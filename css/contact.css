@@ -1,0 +1,99 @@
+@import url(./global.css);
+
+.page {
+  padding-top: 6.7rem;
+  padding-bottom: 12rem;
+  background-image: url("../img/bg-pattern-about-2-contact-1.svg"),
+    url("../img/bg-pattern-contact-2.svg");
+  background-repeat: no-repeat;
+  background-position: left -100px top, right -100px bottom;
+}
+.page-container {
+  display: flex;
+  justify-content: space-between;
+  color: var(--white);
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.page-title {
+  font-size: var(--h1-small-fs);
+  font-size: 1.5;
+}
+.page-content-titlet {
+  font-weight: 700;
+  font-size: 3.2rem;
+  font-weight: 1.5;
+}
+
+.page-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.page-item {
+  display: flex;
+  align-items: center;
+  gap: 2.3rem;
+}
+
+.page-subtitle {
+  font-weight: var(--Livvic-Bold);
+  font-size: var(--body-small-fs);
+  line-height: var(--body-small-lh);
+}
+
+.page-btn {
+  width: 100%;
+  max-width: 123px;
+}
+
+.page-input {
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  background-color: transparent;
+}
+
+.form {
+  width: 100%;
+  max-width: 540px;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+input {
+  font-size: var(--body-small-fs);
+  line-height: var(--body-small-lh);
+  padding-left: 1.4rem;
+}
+
+.name,
+.email,
+.name,
+.title,
+.Message,
+.company-name {
+  font-size: var(--body-small-fs);
+  line-height: var(--body-small-lh);
+  padding-left: 1.4rem;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  background-color: transparent;
+}
+
+.name,
+.email,
+.name,
+.title,
+.company-name {
+  padding-bottom: 1.6rem;
+}
+
+.Message {
+  padding-bottom: 5.6rem;
+}
